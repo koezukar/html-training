@@ -10,19 +10,27 @@
     display: flex;
     list-style: none;
     justify-content: flex-end;
+    margin-left: 150px;
+    margin-right: 150px;
 }
+
 #GlobalMenu ul{
     display: flex;
     border-collapse: separate;
     justify-content: flex-end;
     list-style: none;
-    font-size: 14pt;
-
+    font-size: 16pt;
 }
 
 h2.SectionTitle {
     text-align: center;
 }
-div.topicsTxtArea {
-    
+p.TopSectionText{
+    font-size: 12pt;
+}
+p.title{
+    font-size: 14pt;
+}
+p.txt{
+    font-size: 12pt;
 }
