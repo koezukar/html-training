@@ -1,0 +1,15 @@
+1.gitのアカウントを作成し、リモートリポジトリを作る
+2.https://gitforwindows.org/からgitのインストーラをDL
+3.インストーラを起動。gitのコマンドラインはvisual studio codeを選択する以外は、デフォルト設定でOK
+4.以下はVSCodeかGit bushで操作。
+5.作業ディレクトリに移動
+6.git init
+7.リモートリポジトリを登録する前にユーザー名とメールアドレスを設定しておく。以下のコマンドを実行して登録するか、設定ファイル(.git/config)を直接編集する。
+ git config --global user.name "ユーザー名"
+ git config --global user.email "メールアドレス"
+8.git remote add origin <リモートリポジトリのURL>
+9.テストファイルを作る。ここではtest.htmlとする
+10.git add test.html
+11.git commit -m "コメント"
+12.git push origin master
+13.githubのリモートリポジトリに反映されているか確認
