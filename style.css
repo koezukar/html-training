@@ -1,14 +1,20 @@
 @charset "UTF-8";
-#NewsTopics ul li {
-    display: inline-block;
+li{
+    margin : 10px;
 }
-#GlobalMenu div ul li{
-    display: inline-block;
+#NewsTopics ul{
+    display: flex;
+    list-style: none;
 }
-#GlobalMenu{
-    margin-left : 70%;
+#GlobalMenu ul{
+    display: flex;
+    border-collapse: separate;
+    justify-content: flex-end;
+    list-style: none;
     font-size: 14pt;
+
 }
+
 h2.SectionTitle {
     text-align: center;
 }
