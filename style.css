@@ -1,7 +1,9 @@
 @charset "UTF-8";
 #NewsTopics ul li{
-    font-size: 14pt;
-    margin : 12px;
+    margin : 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #98c0f1;
 }
 #GlobalMenu ul li {
     margin : 12px;
@@ -29,8 +31,8 @@ p.TopSectionText{
     font-size: 12pt;
 }
 p.title{
-    font-size: 14pt;
+    font-size: 12pt;
 }
 p.txt{
-    font-size: 12pt;
+    font-size: 11pt;
 }
