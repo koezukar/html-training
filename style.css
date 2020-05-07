@@ -1,8 +1,12 @@
 @charset "UTF-8";
 #NewsTopics{
+    width: 100%;
     background-color:#fff9f9;
+    display: flex;
+    justify-content: center;
 }
-#NewsTopics ul li{
+div.NewsTopicContents{
+    width: 250pt;
     margin : 10px;
     border-width: thin;
     border-style: solid;
@@ -10,13 +14,6 @@
 }
 #GlobalMenu ul li {
     margin : 12px;
-}
-#NewsTopics ul{
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 #GlobalMenu ul{
@@ -31,17 +28,17 @@ h2.SectionTitle {
     text-align: center;
 }
 div.bigButton{
-    display:flex;
     width:220pt;
     height: 40pt;
     margin-left :auto;
     margin-right:auto;
-    align-items: center;
-    justify-content: center;
     border-style: solid;
     border-width: thin;
     border-color: #f19e98;
+    text-align: center;
 }
+
+
 div.bigButtonFilled{
     display:flex;
     width:220pt;
@@ -63,7 +60,7 @@ div.bigButtonFilled p{
 #ContactForm {
     height: 100pt;
     width: 100%;
-    
+
     margin:30pt;
     padding-top: 50pt;
     background-color:#feeced;
@@ -76,6 +73,7 @@ p.TopSectionText{
     font-size: 12pt;
 }
 p.title{
+    font-weight: bold;
     font-size: 12pt;
 }
 p.txt{
