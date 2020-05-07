@@ -27,6 +27,47 @@
 h2.SectionTitle {
     text-align: center;
 }
+div.bigButton{
+    display:flex;
+    width:220pt;
+    height: 40pt;
+    margin-left :auto;
+    margin-right:auto;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #f19e98;
+}
+div.bigButtonFilled{
+    display:flex;
+    width:220pt;
+    height: 40pt;
+    margin-left :auto;
+    margin-right:auto;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: thin;
+    background-color: #f19e98;
+}
+div.bigButtonFilled p{
+    color : white;
+    font-weight: 1000;
+}
+
+
+#ContactForm {
+    height: 100pt;
+
+    margin:30pt;
+    padding-top: 50pt;
+    background-color:#fae0e8;
+}
+
+h2.bigButtonContent{
+    color:   #f19e98;
+}
 p.TopSectionText{
     font-size: 12pt;
 }
