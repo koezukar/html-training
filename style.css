@@ -1,4 +1,10 @@
 @charset "UTF-8";
-#NewsTopics{
-    color:blue;
+#NewsTopics ul li {
+    display: inline-block;
+}
+#GlobalMenu div ul li{
+    display: inline-block;
+}
+h2.SectionTitle {
+    text-align: center;
 }
