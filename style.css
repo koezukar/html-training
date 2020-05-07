@@ -1,10 +1,15 @@
 @charset "UTF-8";
-li{
-    margin : 10px;
+#NewsTopics ul li{
+    font-size: 14pt;
+    margin : 12px;
+}
+#GlobalMenu ul li {
+    margin : 12px;
 }
 #NewsTopics ul{
     display: flex;
     list-style: none;
+    justify-content: flex-end;
 }
 #GlobalMenu ul{
     display: flex;
