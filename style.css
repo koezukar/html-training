@@ -1,4 +1,7 @@
 @charset "UTF-8";
+#NewsTopics{
+    background-color:#fff9f9;
+}
 #NewsTopics ul li{
     margin : 10px;
     border-width: thin;
@@ -59,10 +62,11 @@ div.bigButtonFilled p{
 
 #ContactForm {
     height: 100pt;
-
+    width: 100%;
+    
     margin:30pt;
     padding-top: 50pt;
-    background-color:#fae0e8;
+    background-color:#feeced;
 }
 
 h2.bigButtonContent{
