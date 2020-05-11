@@ -1,4 +1,11 @@
 @charset "UTF-8";
+html{
+    font-size:100%;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.7;
+}
 #NewsTopics{
     width: 100%;
     background-color:#fff9f9;
