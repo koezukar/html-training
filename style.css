@@ -109,3 +109,15 @@ div.Achievement{
     padding: 0 4%;
     margin:0 auto;
 }
+div.ISO_certification{
+    display: flex;
+    justify-content: space-between;
+    max-width:80px;
+    margin-top:10px;
+    padding: 0 4%;
+    margin:0 auto;
+}
+.contents_wrap{
+    margin:0 auto;
+    max-width:960px;
+}
