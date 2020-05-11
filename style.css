@@ -85,7 +85,7 @@ div.aboutCompany{
     margin-right: auto;
     width :100%;
     display : flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 section.whereabouts{
     width: 40%;
@@ -112,12 +112,12 @@ div.Achievement{
 div.ISO_certification{
     display: flex;
     justify-content: space-between;
-    max-width:80px;
+    max-width:700px;
     margin-top:10px;
     padding: 0 4%;
     margin:0 auto;
 }
-.contents_wrap{
+#contents_wrap{
     margin:0 auto;
     max-width:960px;
 }
