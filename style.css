@@ -102,5 +102,10 @@ div.aboutCompany ul div{
     text-align:left;
 }
 div.Achievement{
-    display:flex
+    display:flex;
+    justify-content: space-between;
+    max-width:1000px;
+    margin-top:10px;
+    padding: 0 4%;
+    margin:0 auto;
 }
