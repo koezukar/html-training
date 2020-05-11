@@ -6,6 +6,25 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.7;
 }
+#header_wrap{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-color: #8b5ee4;
+}
+#GlobalMenu{
+    font-size: 1.1rem;
+}
+
+#GlobalMenu ul{
+    display: flex;
+    border-collapse: separate;
+    justify-content: flex-end;
+    list-style: none;
+}
+
 #NewsTopics{
     width: 100%;
     background-color:#fff9f9;
@@ -23,13 +42,6 @@ div.NewsTopicContents{
     margin : 12px;
 }
 
-#GlobalMenu ul{
-    display: flex;
-    border-collapse: separate;
-    justify-content: flex-end;
-    list-style: none;
-    font-size: 16pt;
-}
 
 h2.SectionTitle {
     text-align: center;
