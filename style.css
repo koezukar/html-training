@@ -83,12 +83,21 @@ p.txt{
 div.aboutCompany{
     margin-left: auto;
     margin-right: auto;
-    width :700px;
+    width :100%;
     display : flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+section.whereabouts{
+    width: 40%;
+}
+section.CompanyName{
+    width: 40%;
 }
 div.aboutCompany ul{
     list-style: none;
     text-align:left;
     display: table
+}
+div.aboutCompany ul div{
+    text-align:left;
 }
