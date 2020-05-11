@@ -101,3 +101,6 @@ div.aboutCompany ul{
 div.aboutCompany ul div{
     text-align:left;
 }
+div.Achievement{
+    display:flex
+}
