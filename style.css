@@ -144,7 +144,7 @@ div.footer_wrap1{
     display:flex;
     justify-content: space-between;
     height: 140px;
-    background-color: #4e3050;
+    background-color :#2a1d26;
 }
 p.footer_bottom{
     height: 20px;
@@ -154,11 +154,12 @@ p.footer_bottom{
     font-size: 0.7rem;
     background-color: black;
 }
-.footer_menu{
-
-    width:1000px;
+.footer_menu {
+    margin-left: 12px;
+    width:50%;
 }
 .footer_menuList{
+    list-style: none;
     justify-content: space-between;
     display:flex;
 }
